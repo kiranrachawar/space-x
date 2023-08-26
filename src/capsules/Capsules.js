@@ -54,7 +54,7 @@ function Capsules(){
 
           <div className='container mt-3'>
             <div className='row'>
-            <h1 className='text-center mb-4'>Capsules</h1>
+            <h1 className='text-center mb-4'>Ships</h1>
             {
                 capsules.map((capsule,index)=>{
                 return(
