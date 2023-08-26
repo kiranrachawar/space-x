@@ -1,0 +1,11 @@
+.ant-card-meta-description{
+    display : -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.ant-modal-body{
+    margin-top: 25px;
+
+}
