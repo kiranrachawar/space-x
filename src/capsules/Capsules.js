@@ -77,8 +77,8 @@ function Capsules(){
                                 ]}
                             >
                                 <Meta
-                                //title={capsule.mission_name}
-                                //description={capsule.details}
+                                title={capsule.ship_id}
+                                description={capsule.home_port}
                                 />
                             </Card>
                         </div>
@@ -87,21 +87,21 @@ function Capsules(){
             })
         }
         
-        <Modal title="Capsules Details" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={null} >
+        <Modal title="Ships Details" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={null} >
         <div className='row'>
             <div className='col-md-12'>       
-            {/* <p>Flight Number : {CapsulesDetail.flight_number}</p>
+            {/* <p>Ship ABS : {capsulesDetail.abs}</p>
             <hr />
 
-            <p>Site Name : {CapsulesDetail.launch_site?.site_name}</p>
+            <p>Site Name : {capsulesDetail.launch_site?.site_name}</p>
             <hr />
 
-            <p>Launch Year : {CapsulesDetail.launch_year}</p>
+            <p>Launch Year : {capsulesDetail.launch_year}</p>
             <hr />
-            <p>Site Name Long : {CapsulesDetail.launch_site?.site_name_long}</p>
+            <p>Site Name Long : {capsulesDetail.launch_site?.site_name_long}</p>
             <hr />
 
-            <p>Launch Window : {CapsulesDetail.launch_window}</p>
+            <p>Launch Window : {capsulesDetail.launch_window}</p>
             <hr /> */}
             </div>
         </div>
